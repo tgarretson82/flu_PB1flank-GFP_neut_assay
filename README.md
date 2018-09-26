@@ -10,7 +10,9 @@ If this is done in the correct media (media with low autofluorescence at the GFP
 You can then use these fluorescence readings to fit a neutralization curve (if you are a Python user, you can even fit these using the [appropriate function in dms_tools2](https://jbloomlab.github.io/dms_tools2/dms_tools2.neutcurve.html)).
 
 To understand the assays in more detail, read the protocol in Katie Hooper's original paper that developed these assays ([Hooper et al (2013)](https://jvi.asm.org/content/87/23/12531.full)) and the more detailed protocol in one of Mike Doud's papers ([Doud et al (2017)](https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006271)).
-Juhye Lee has also generously written up her protocol, which you can [read here](protocols/JuhyeLeeProtocol.pdf).
+Juhye Lee has also generously written up her protocol and some example lab notes:
+  - [Juhye's protocol](protocols/JuhyeLeeProtocol.pdf).
+  - [Juhye's lab notes](protocols/NeutralizationAssayNotebook.pdf)
 
 In addition, if you are working with any virus other than WSN (which is trypsin independent), we now recommend using TMPRSS2-expressing cells to activate HA.
 This is both easier and works better than adding exogenous trypsin.
