@@ -41,7 +41,7 @@ If you want to run this assay, you will typically need to request the following 
 
 ## Citations
 We (specifically Katie Hooper, Mike Doud, Juhye Lee, and Jesse Bloom) put a fair amount of work into developing this assay. 
-So if you use it, we'd appreciate if you cite the relevant papers describing the re-agents:
+So if you use it, we'd appreciate if you cite the relevant papers describing the reagents:
 
  - The system that Jesse developed to grow viruses with GFP in the PB1 segment is described in [Bloom et al (2010)](http://science.sciencemag.org/content/328/5983/1272.long).
 
