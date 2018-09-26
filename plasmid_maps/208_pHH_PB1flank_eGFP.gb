@@ -1,0 +1,138 @@
+LOCUS       pHH-PB1flank-eGF        3785 bp    DNA     circular      9-JUN-2009
+DEFINITION  RNA polymerase I casette expressing influenza-like viral RNA cotaining GFP with flanking regions from PB1.
+SOURCE      
+  ORGANISM  
+COMMENT     Jesse Bloom created this plasmid.
+            
+            It uses the human RNA polymerase I cassette from pHH21 to express an influenza
+            viral-like RNA.  The vRNA contains the noncoding regions and terminal 80
+            coding nucleotides from the A/WSN/33 influenza PB1 segment (except that
+            potential start codons have been mutated out of the coding regions of the 
+            N-terminus of PB1 genes).  There is also a single nucleotide deletion in what
+            was originally the N-terminal PB1 coding region.  It contains EcoRI and BamHI sites, into
+            which are inserted a negative-sense eGFP.  This eGFP has a few synonymous
+            mutations relative to the standard eGFP that eliminate potential splice sites.
+            
+            CHARACTERIZATION:
+            * Confirmed by sequencing from nt 1820-2858 (JDB, 6-9-09)
+FEATURES             Location/Qualifiers
+     CDS             3517..589
+                     /vntifkey="4"
+                     /label=AmpR
+                     /note="beta-lactamase ampicillin resistance gene"
+     misc_feature    1457..1859
+                     /vntifkey="21"
+                     /label=PolI\promoter
+                     /note="Human PolI promoter"
+     terminator      2817..2982
+                     /vntifkey="43"
+                     /label=PolI\terminator
+                     /note="mouse PolI terminator"
+     misc_feature    1860..2816
+                     /vntifkey="21"
+                     /label=vRNA
+     misc_feature    1860..1872
+                     /vntifkey="21"
+                     /label=U13
+     misc_feature    2805..2816
+                     /vntifkey="21"
+                     /label=U12
+     misc_feature    complement(2793..2816)
+                     /vntifkey="21"
+                     /label=3'NCR
+                     /note="5' noncoding region of PB1 vRNA from A/WSN/33"
+     misc_feature    complement(1860..1902)
+                     /vntifkey="21"
+                     /label=5'NCR
+                     /note="3' noncoding region from A/WSN/33 PB1"
+     mutation        2792..2792
+                     /vntifkey="62"
+                     /label=T->A\to\remove\start\codon
+     mutation        2788..2788
+                     /vntifkey="62"
+                     /label=T->A\to\remove\start\codon
+     mutation        2746..2746
+                     /vntifkey="62"
+                     /label=T->A\to\remove\start\codon
+     misc_feature    complement(2715..2793)
+                     /vntifkey="21"
+                     /label=3'\coding\nucleotides
+                     /note="The 3' 80 coding nucleotides from A/WSN/33 influenza PB1"
+     misc_feature    complement(1903..1982)
+                     /vntifkey="21"
+                     /label=5'\coding\nucleotides
+                     /note="The 80 5' coding nucleotides from A/WSN/33 PB1 vRNA"
+     mutation        2736..2737
+                     /vntifkey="62"
+                     /label=delG
+                     /note="A G nucleotide is deleted here relative to the actual PB1 flanking sequence."
+     CDS             complement(1989..2708)
+                     /vntifkey="4"
+                     /label=eGFP
+BASE COUNT      799 a       977 c      1066 g       943 t 
+ORIGIN
+        1 tcgccgcata cactattctc agaatgactt ggttgagtac tcaccagtca cagaaaagca 
+       61 tcttacggat ggcatgacag taagagaatt atgcagtgct gccataacca tgagtgataa 
+      121 cactgcggcc aacttacttc tgacaacgat cggaggaccg aaggagctaa ccgctttttt 
+      181 gcacaacatg ggggatcatg taactcgcct tgatcgttgg gaaccggagc tgaatgaagc 
+      241 cataccaaac gacgagcgtg acaccacgat gcctgtagca atggcaacaa cgttgcgcaa 
+      301 actattaact ggcgaactac ttactctagc ttcccggcaa caattaatag actggatgga 
+      361 ggcggataaa gttgcaggac cacttctgcg ctcggccctt ccggctggct ggtttattgc 
+      421 tgataaatct ggagccggtg agcgtgggtc tcgcggtatc attgcagcac tggggccaga 
+      481 tggtaagccc tcccgtatcg tagttatcta cacgacgggg agtcaggcaa ctatggatga 
+      541 acgaaataga cagatcgctg agataggtgc ctcactgatt aagcattggt aactgtcaga 
+      601 ccaagtttac tcatatatac tttagattga tttaaaactt catttttaat ttaaaaggat 
+      661 ctaggtgaag atcctttttg ataatctcat gaccaaaatc ccttaacgtg agttttcgtt 
+      721 ccactgagcg tcagaccccg tagaaaagat caaaggatct tcttgagatc ctttttttct 
+      781 gcgcgtaatc tgctgcttgc aaacaaaaaa accaccgcta ccagcggtgg tttgtttgcc 
+      841 ggatcaagag ctaccaactc tttttccgaa ggtaactggc ttcagcagag cgcagatacc 
+      901 aaatactgtt cttctagtgt agccgtagtt aggccaccac ttcaagaact ctgtagcacc 
+      961 gcctacatac ctcgctctgc taatcctgtt accagtggct gctgccagtg gcgataagtc 
+     1021 gtgtcttacc gggttggact caagacgata gttaccggat aaggcgcagc ggtcgggctg 
+     1081 aacggggggt tcgtgcacac agcccagctt ggagcgaacg acctacaccg aactgagata 
+     1141 cctacagcgt gagctatgag aaagcgccac gcttcccgaa gggagaaagg cggacaggta 
+     1201 tccggtaagc ggcagggtcg gaacaggaga gcgcacgagg gagcttccag ggggaaacgc 
+     1261 ctggtatctt tatagtcctg tcgggtttcg ccacctctga cttgagcgtc gatttttgtg 
+     1321 atgctcgtca ggggggcgga gcctatggaa aaacgccagc aacgcggcct ttttacggtt 
+     1381 cctggccttt tgctggcctt ttgctcacat gttctttcct gcgttatccc ctgattcatt 
+     1441 aatgcagatc acgatccttt ctggcgagtc cccgtgcgga gtcggagagc gctccctgag 
+     1501 cgcgcgtgcg gcccgagagg tcgcgcctgg ccggccttcg gtccctcgtg tgtcccggtc 
+     1561 gtaggagggg ccggccgaaa atgcttccgg ctcccgctct ggagacacgg gccggccccc 
+     1621 tgcgtgtggc acgggcggcc gggagggcgt ccccggcccg gcgctgctcc cgcgtgtgtc 
+     1681 ctggggttga ccagagggcc ccgggcgctc cgtgtgtggc tgcgatggtg gcgtttttgg 
+     1741 ggacaggtgt ccgtgtcgcg cgtcgcctgg gccggcggcg tggtcggtga cgcgacctcc 
+     1801 cggccccggg ggaggtatat ctttcgctcc gagtcggcat tttgggccgc cgggttatta 
+     1861 gtagaaacaa ggcatttttt catgaaggac aagctaaatt cactattttt gccgtctgag 
+     1921 ctcttcaatg gtggaacaga tcttcatgat ctcagtgaac tcctctttct ttatccttcc 
+     1981 agggatcctt atttgtacag ctcgtccatg ccgagagtga tcccggcggc ggtcacgaac 
+     2041 tccagcagga ccatgtgatc gcgcttctcg ttggggtctt tgctcagggc ggactgggtg 
+     2101 ctcaggtagt ggttgtcggg cagcagcacg gggccgtcgc cgatgggggt gttctgctgg 
+     2161 tagtggtcgg cgagctgcac gctgccgtcc tcgatgttgt ggcggatctt gaagttcacc 
+     2221 ttgatgccgt tcttctgctt gtcggccatg atatagacgt tgtggctgtt gtagttgtac 
+     2281 tccagcttgt gccccaggat gttgccgtcc tccttgaagt cgatgccctt cagctcgatg 
+     2341 cggttcacca gggtgtcgcc ctcgaacttc acctcggcgc gggtcttgta gttgccgtcg 
+     2401 tccttgaaga agatggtgcg ctcctggacg tagccttcgg gcatggcgga cttgaagaag 
+     2461 tcgtgctgct tcatgtggtc ggggtagcgg ctgaagcact gcacgccgta ggtcagggtg 
+     2521 gtcacgaggg tgggccaggg cacgggcagc ttgccggtgg tgcagatgaa cttcagggtc 
+     2581 agcttgccgt aggtggcatc gccctcgccc tcgccggaca cgctgaactt gtggccgttt 
+     2641 acgtcgccgt ccagctcgac caggatgggc accaccccgg tgaacagctc ctcgcccttg 
+     2701 ctgaccatga attcctccag tataagggaa agttgtctta tagcaatttg tgctggcact 
+     2761 tttaagaaaa gtaaagtcgg attgacaacc aatcaaatgg tttgcctgct ttcgctcccc 
+     2821 cccaacttcg gaggtcgacc agtactccgg gcgacacttt gttttttttt ttcccccgat 
+     2881 gctggaggtc gaccagatgt ccgaaagtgt cccccccccc cccccccccc ggcgcggagc 
+     2941 ggcggggcca ctctggactc tttttttttt tttttttttg gggatcggcc gctagcttgg 
+     3001 ctgttttggc ggatgaaaaa aaattttcag cctgatacag attaaatcag aacgcagaag 
+     3061 cggtctgata aaacagaatt tgcctggcgg cagtagcgcg gtggtcccac ctgaccccat 
+     3121 gccgaactca gaagtgaaac gccgtagcgc cgatggtagt gtggggtctc cccatgcgag 
+     3181 agtagggaac tgccaggcat caaataaaac gaaaggctca gtcgaaagac tgggcctttc 
+     3241 gttttatctg ttgtttgtcg gtgaacgctc tcctgagtag gacaaatccg ccgggagcgg 
+     3301 atttgaacgt tgcgaagcaa cggcccggag ggtggcgggc aggacgcccg ccataaactg 
+     3361 ccaggcatca aattaagcag aaggccatcc tgacggatgg cctttttgcg tttctacaaa 
+     3421 ctcttttgtt tatttttcta aatacattca aatatgtatc cgctcatgag acaataaccc 
+     3481 tgataaatgc ttcaataata ttgaaaaagg aagagtatga gtattcaaca tttccgtgtc 
+     3541 gcccttattc ccttttttgc ggcattttgc cttcctgttt ttgctcaccc agaaacgctg 
+     3601 gtgaaagtaa aagatgctga agatcagttg ggtgcacgag tgggttacat cgaactggat 
+     3661 ctcaacagcg gtaagatcct tgagagtttt cgccccgaag aacgttttcc aatgatgagc 
+     3721 acttttaaag ttctgctatg tggcgcggta ttatcccgtg ttgacgccgg gcaagagcaa 
+     3781 ctcgg 
+//
