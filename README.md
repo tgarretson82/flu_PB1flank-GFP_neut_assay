@@ -22,7 +22,7 @@ Note that we only have MDCK-SIAT1 cells expressing TMPRSS2, so during initial re
 ## Key points
 Here are some key points in the protocols to pay attention to:
 
- - The media is important. Most media has high GFP autofluorescence which is due to lots of riboflavin. Our neutralization assay media doesn't have this. So you need to perform your assays in this media, and also produce (or **heavily** dilute) your virus into it.
+ - The media is important. Most media has high GFP autofluorescence which is due to lots of riboflavin. Our neutralization assay media doesn't have this. So you need to perform your assays in this media, and also produce (or **heavily** dilute) your virus into it. You can purchase the Medium 199 we use in our neutralization assay media [here](https://www.thermofisher.com/order/catalog/product/11043023).
 
  - When growing PB1flank-GFP viruses, the virus becomes somewhat more sensitive to the growth stage of the cells than "full" influenza viruses, probably because it relies on the cells to produce the PB1 protein. In particular, it doesn't grow well in fully confluent cells probably because they reduce expression of PB1. So make sure that you are growing the virus in subconfluent cells, which can sometimes be hard because these cells grow so fast.
 
