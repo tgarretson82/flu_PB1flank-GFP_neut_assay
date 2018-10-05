@@ -1,0 +1,59 @@
+Spreading Neutralization Assay Protocol - (TAG 12/15/17)
+
+Reagents:
+Neutralization Assay Media (NAM)
+Medium 199 supplemented with 0.01% heat-inactivated FBS, 0.3% BSA (**IMPORTANT NOTE BELOW), 100 U of penicillin/ml, 100 μg of streptomycin/ml, 100 μg of
+calcium chloride/ml, and 25 mM HEPES.  I make sure to use the same batch of NAM for an entire neutralization experiment to avoid any batch effects on the fluorescence signal coming from the media.
+***Painstakingly found that you need to get proper cell culture BSA.  We used IgG Free cell culture BSA from Jackson.  This had a major impact on spread and growth of virus in assay.***
+
+Notes:
+We use MDCK-SIAT1-TMPRSS2-PB1 cells.  I grow these cells in MEM+10% heat-inactivated FBS as usual and split 1:5 for a one-day growth to confluency, or 1:10 for a two-day growth to confluency, and try to avoid splitting lower/growing longer.  ***The cells and the infections will change with under/oversplitting.***
+
+Viruses used in assay are PB1 negative, GFP positive.  So they require growth on PB1-expressing MDCK cells.
+
+Sera was RDE-treated and will be adding 12uL of RDE-treated (1:4) sera straight to 148uL NAM in first column, the final dilution will be 1:80 of sera:media.  This will then be diluted two-fold - 1:160, 1:320, 1:640, etc.  We found that serum concentrations above 1:80 causing cell sloughing and deleterious effects in neut assay.
+ 
+Infections were set up on clear 96-well plates with 80,000 cells/well.
+
+
+
+
+Neut assay was performed as follows:
+
+•	Warm NAM and MEM+FBS (trypsin-EDTA for splitting)
+•	Begin thawing viruses.
+•	Add warmed 80uL of NAM to all wells with sera EXCEPT FIRST COLUMN of 96-well tissue culture plate.  If using sera, add 148uL of NAM to FIRST COLUMN (of wells for sera).  If using mAb, make up appropriate concentration with final volume of 160uL.  Add 80uL to all control wells. ***Add 40 ul of additional media to last column of cell only control wells - column 12 very important for background determination!  All final volumes at end of assay (160uL) should be the same for accurate measurements.***
+o	  Once first column is made up to 160uL, 80uL of sera/mAb solution were added to second column and serially diluted across 2-fold.  Throw out last 80uL. 
+•	Next, 40uL of the following virus concentrations were added:
+o	  40uL of appropriate dilution virus was added
+•	This was determined through either normalization test of viruses (titrate viruses without sera/mAb, then confirm proper working dilutions by back titration) or MOI test (flow-based assay developed by Bloom lab)
+o	  One row of plate was virus and cells, no Ab
+o	  One row of plate was just cells, no virus+Ab
+•	Virus/ab plates were incubated for 1hr (can be 1.5hr) at 37C to allow for neutralization.
+•	While waiting for incubation, trypsinize a plate of MDCK-SIAT1-CMV-PB1-TMPRSS2 cells and quench with MEM+FBS when cells are detached.  (to be safe you need 1 confluent T175 for 1 96-well plate)
+•	Spin down trypsinized cells, decant MEM+FBS, resuspend in NAM (4mL per T175).
+•	Use the hemacytometer to count the number of cells in your suspension.
+•	Make up master mix of the following density of cells in NAM.  Add 40uL of master mix of cells 2x10^6 cells/mL which works out to be 80,000 cells/well. (total volume of cells+media+virus = 160uL)
+•	Rock the plates gently to make sure they are mixed and return to the incubator at 37C.
+•	Incubate for 40 hr PI
+•	Read fluorescence intensity on Envision plate reader
+o	  Plate reader settings (monochromator, top read, excitation filter at 485nm, emission filter at 530nm).  Take off lid when reading.
+•	Also read on automated microscope for visual confirmation of result.  Added 40uL of 1:500 Hoechst 33342 (Invitrogen, 10mg/mL stock) for enumerating cells.
+•	Percent of maximal infectivity was calculated by subtracting background fluorescence signal from all wells and dividing the signal from antibody-containing wells by the signal from corresponding wells without antibody.
+ 
+
+
+PLATE LAYOUT
+H1-A1 = serum/mAb A dilution
+H2-A2 = serum/mAb B dilution 
+H3-A3 = serum/mAb C dilution 
+H4-A4 = serum/mAb D dilution  
+H5-A5 = serum/mAb E dilution 
+H6-A6 = serum/mAb F dilution 
+H7-A7 = serum/mAb G dilution 
+H8-A8 = serum/mAb H dilution  
+H9-A9 = serum/mAb I dilution 
+H9-A9 = serum/mAb J dilution
+H10-A10 = serum/mAb K dilution
+H11-A11 = virus+cell control - input control
+H12-A12 = cell only - cell background fluorescence
